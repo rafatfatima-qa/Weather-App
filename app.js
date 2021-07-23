@@ -1,4 +1,3 @@
-
   /* By Default Current City, Date and Weather details*/  
   let now = new Date();
   let date = document.querySelector('.location .date');
@@ -28,7 +27,6 @@ const api = {
       console.log(searchbox.value);
     }
   }
-  
   function getResults (query) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&APPID=21fcf12af2601a16bbc2c200ff00e93c`)
       .then(weather => {

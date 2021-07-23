@@ -1,4 +1,4 @@
-* {              /* The asterisk (*) is known as the CSS universal selectors. It can be used to select any and all types of elements in an HTML page.*/
+* {              /* The asterisks (*) is known as the CSS universal selectors. It can be used to select any and all types of elements in an HTML page.*/
     margin: 0;   /* set margin around all elements on html page = 0, also cursor wont be visible and content will be displayed on full page */
     padding: 0;  /* Padding creates extra space within an element so 0 extra spaces within all elements of this html page*/
     box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height so apply box-sizing to all html elements on this page */
