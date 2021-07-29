@@ -1,3 +1,5 @@
+# Weather App
+
 # Javascript-Problems-Solving-Practice
 - This repo is for JavaScript Problem solving Practice activity.
 - This activity is based on making different live projects given by the instructor.
