@@ -6,7 +6,7 @@
   
   body {
     font-family: 'montserrat', sans-serif;
-    background-image: url('C:/Users/hp/Documents/CIRCLE-Info Tech/Project 6 - Weather App/images/bg.jpg');
+    background-image: url('../../Project 6 - Weather App/images/bg.jpg');
     background-size: cover; /* Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges*/
     background-position: top center; /* The background-position property sets the starting position of a background image.*/
   }
@@ -33,7 +33,7 @@
     outline: none;
     background-color: rgba(255, 255, 255, 0.3); /* a transperant white color */
     border-radius: 16px 0px 16px 0px; /* gives a shape to input box */
-    border-bottom: 3px solid #DF8E00; /* gives a color to input box's bottom border only */
+    border-bottom: 3px solid #300feb; /* gives a color to input box's bottom border only */
     
     color: #313131;
     font-size: 20px;
@@ -64,6 +64,17 @@
   .location .date {
     color: #FFF;
     font-size: 16px;
+  }
+
+  #feel{
+    color: #FFF;
+    font-size: 16px;
+  }
+
+  p{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'montserrat', sans-serif;
   }
   
   .current .temp {

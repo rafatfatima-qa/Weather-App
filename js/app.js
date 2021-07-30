@@ -24,7 +24,7 @@ searchbox.addEventListener('keypress', setQuery);
 function setQuery(evt) {
   if (evt.keyCode == 13) {
     getResults(searchbox.value);
-    console.log(searchbox.value);
+    //console.log(searchbox.value);
   }
 }
 function getResults (query) {
@@ -44,12 +44,16 @@ function displayResults (weather) {
 
   let temp = document.querySelector('.current .temp');
   temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
+  // console.log(Math.round(weather.main.temp));
 
   let weather_el = document.querySelector('.current .weather');
   weather_el.innerText = weather.weather[0].main;
 
   let hilow = document.querySelector('.hi-low');
   hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
+
+  // const FEEL = Math.round(weather.main.feels_like) + " °C";
+  // document.querySelector("#feel").innerHTML = FEEL;
 }
 
 function dateBuilder (d) {
