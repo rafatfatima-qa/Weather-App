@@ -6,7 +6,7 @@
   
   body {
     font-family: 'montserrat', sans-serif;
-    background-image: url('../../Project 6 - Weather App/images/bg.jpg');
+    background-image: url('https://github.com/rafatfatima-qa/Weather-App/blob/main/images/bg.jpg');
     background-size: cover; /* Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges*/
     background-position: top center; /* The background-position property sets the starting position of a background image.*/
   }
